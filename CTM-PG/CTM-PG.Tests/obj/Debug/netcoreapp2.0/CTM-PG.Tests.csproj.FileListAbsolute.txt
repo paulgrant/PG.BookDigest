@@ -1,0 +1,16 @@
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netstandard15.dll
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netstandard15.dll
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/bin/Debug/netcoreapp2.0/CTM-PG.Tests.deps.json
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/bin/Debug/netcoreapp2.0/CTM-PG.Tests.runtimeconfig.json
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/bin/Debug/netcoreapp2.0/CTM-PG.Tests.runtimeconfig.dev.json
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/bin/Debug/netcoreapp2.0/CTM-PG.Tests.dll
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/bin/Debug/netcoreapp2.0/CTM-PG.Tests.pdb
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/obj/Debug/netcoreapp2.0/CTM-PG.Tests.csprojResolveAssemblyReference.cache
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/obj/Debug/netcoreapp2.0/CTM-PG.Tests.csproj.CoreCompileInputs.cache
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/obj/Debug/netcoreapp2.0/CTM-PG.Tests.AssemblyInfoInputs.cache
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/obj/Debug/netcoreapp2.0/CTM-PG.Tests.AssemblyInfo.cs
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/obj/Debug/netcoreapp2.0/CTM-PG.Tests.dll
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/obj/Debug/netcoreapp2.0/CTM-PG.Tests.pdb
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/bin/Debug/netcoreapp2.0/CTM-PG.Services.dll
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/bin/Debug/netcoreapp2.0/CTM-PG.Services.pdb

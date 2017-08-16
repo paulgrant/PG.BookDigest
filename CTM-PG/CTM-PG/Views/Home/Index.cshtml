@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="" ng-controller="BookReaderController">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Analysis of The Railway Children</h2>
+            <div class="col-md-5">
+    	        <button ng-click="readbook1()">Read book</button> 
+    		</div>
+    		<div class="col-md-1">&nbsp;</div>
+    		<div class="col-md-5">
+				<!--<button ng-click="readbook2()">Read book differently</button> -->           
+    		</div>
+        </div>
+    </div>
+
+	<div class="row">
+        <div class="col-md-12">
+            <div ng-show="bookreader.results.length>0 && !bookreader.isLoading" >
+			<h2>Results   ** NB Consider paging!</h2>
+				<div class="row">
+                    <div class="col-md-2">Word</div>
+                    <div class="col-md-9">Count</div>
+                    <div class="col-md-1">Is a Prime Number</div>
+                </div>
+                <div ng-repeat="result in bookreader.results">
+					<div class="row">
+                        <div class="col-md-8">{{ result.word }}</div>
+                        <div class="col-md-2">{{ result.wordCount }}</div>
+    					<div class="col-md-2">
+							<span ng-show="result.isPrimeNumber">&#10003;</span>
+							<span ng-show="!result.isPrimeNumber">&#10007;</span>
+						</div>
+					</div>
+                </div>
+            </div>
+			<div ng-show="bookreader.results.length == 0 && !bookreader.isLoading && bookreader.results != undefined" >
+                <div class="alert alert-info" >
+                    <p class="text-center" >No results found.</p >
+                </div >
+            </div >
+
+            <div class="spinner"
+                 ng-show="bookreader.isLoading" >
+                <span us-spinner="{radius:8, width:5, length: 3, lines:9}" ></span >
+
+                <p >Loading...</p >
+            </div >
+        </div>
+    </div>
+</div>

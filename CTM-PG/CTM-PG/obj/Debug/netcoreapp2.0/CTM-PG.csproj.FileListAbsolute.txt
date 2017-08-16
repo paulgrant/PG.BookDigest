@@ -1,0 +1,14 @@
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/bin/Debug/netcoreapp2.0/CTM-PG.deps.json
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/bin/Debug/netcoreapp2.0/CTM-PG.runtimeconfig.json
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/bin/Debug/netcoreapp2.0/CTM-PG.runtimeconfig.dev.json
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/bin/Debug/netcoreapp2.0/CTM-PG.dll
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/bin/Debug/netcoreapp2.0/CTM-PG.pdb
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/bin/Debug/netcoreapp2.0/CTM-PG.Services.dll
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/bin/Debug/netcoreapp2.0/CTM-PG.Services.pdb
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/obj/Debug/netcoreapp2.0/CTM-PG.csprojResolveAssemblyReference.cache
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/obj/Debug/netcoreapp2.0/CTM-PG.csproj.CoreCompileInputs.cache
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/obj/Debug/netcoreapp2.0/CTM-PG.AssemblyInfoInputs.cache
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/obj/Debug/netcoreapp2.0/CTM-PG.AssemblyInfo.cs
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/obj/Debug/netcoreapp2.0/CTM-PG.dll
+/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG/obj/Debug/netcoreapp2.0/CTM-PG.pdb

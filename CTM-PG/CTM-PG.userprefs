@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{4C79A6DA-851A-402C-ACE8-78C891A6F42E}|Default">
+  <MonoDevelop.Ide.ItemProperties.CTM-PG.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CTM-PG.Services/BookService.cs">
+    <Files>
+      <File FileName="CTM-PG.Services/BookReader.cs" Line="7" Column="18" />
+      <File FileName="CTM-PG.Services/BookService.cs" Line="93" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Services/BookService.cs" relfile="CTM-PG.Services/BookService.cs" line="45" column="19" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CTM-PG PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
