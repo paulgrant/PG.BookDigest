@@ -7,7 +7,7 @@ namespace CTM_PG.Services
     public class BookReader : IBookReader
     {
         private const string  _bookUrl = "http://www.loyalbooks.com/download/text/Railway-Children-by-E-Nesbit.txt";
-		public Stream GetBookStream()
+		public virtual Stream GetBookStream()
 		{
 			byte[] imageData = null;
 
@@ -24,9 +24,6 @@ namespace CTM_PG.Services
 						// error 404, do what you need to do
 					}
 				}
-                catch{
-                    //TODO
-                }
             }
 
 			return new MemoryStream(imageData);

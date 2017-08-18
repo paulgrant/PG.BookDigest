@@ -14,7 +14,6 @@ namespace CTM_PG.Tests
 		[Theory()]
 		[InlineData("THE RAILWAY CHILDREN")]
         [InlineData("THE  RAILWAY  CHILDREN")]
-        [InlineData(@"THE\tRAILWAY\tCHILDREN")]
     	public void ReturnsNonEmptyWordCollection(string inputString)
     	{
 

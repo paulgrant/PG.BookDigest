@@ -8,25 +8,23 @@ using System.Linq;
 
 namespace CTM_PG.Tests
 {
+
     public class BookServiceTests
     {
 
-		[Theory()]
+		[Fact()]
 		public void ReturnsNonEmptyWordCollection()
-		{
-
-
-
+        {
             List<BookWordCount> list2 = new List<BookWordCount>() { new BookWordCount("THE", 1) };
-            Stream textStream = GenerateStreamFromString(@"THE\tRAILWAY\tCHILDREN");
+            var testString = @"THE RAILWAY CHILDREN";
+            Stream textStream = GenerateStreamFromString(testString);
 
-            var wordServiceMock = new Mock<WordCountService>(MockBehavior.Strict);
-            wordServiceMock.Setup(x=>x.GetWordCount(It.IsAny<string>())).Returns(list2);
+			var bookReaderMock = new Mock<BookReader>();
+			bookReaderMock.Setup(c => c.GetBookStream()).Returns(textStream);
 
-            var bookReaderMock = new Mock<BookReader>();
-            bookReaderMock.Setup(c => c.GetBookStream()).Returns(textStream);
+            var wordCountService = new WordCountService();
 
-            var bookService = new BookService(bookReaderMock.Object, wordServiceMock.Object);
+            var bookService = new BookService(bookReaderMock.Object, wordCountService);
             var wordList = bookService.GetWordCountForPresetBook().ToList();
 
 			Assert.True(wordList.Count > 0, "Word count is invalid");
@@ -45,7 +43,7 @@ namespace CTM_PG.Tests
 			return stream;
 		}
 
-		[Theory()]
+		[Fact()]
 		public void CheckMergeListFunctionality()
 		{
             var bookService = new BookService();
@@ -56,11 +54,12 @@ namespace CTM_PG.Tests
             bookService.MergeWordCountLists(ref masterList, list2);
 
 			Assert.True(masterList.Count == 2, "Word count is invalid");
-			Assert.Equal(masterList[1].Word, "THE");
-			Assert.Equal(masterList[1].WordCount, 5);
+			Assert.Equal(masterList[0].Word, "THE");
+			Assert.Equal(masterList[0].WordCount, 5);
+            Assert.Equal(masterList[1].Word, "RAILWAY");
 		}
 
-		[Theory()]
+		[Fact()]
         public void MergeListCanMergeEmptyList()
         {
 			var bookService = new BookService();
@@ -71,12 +70,12 @@ namespace CTM_PG.Tests
 			bookService.MergeWordCountLists(ref masterList, list2);
 
 			Assert.True(masterList.Count == 2, "Word count is invalid");
-			Assert.Equal(masterList[1].Word, "THE");
-			Assert.Equal(masterList[1].WordCount, 4);
+			Assert.Equal(masterList[1].Word, "RAILWAY");
+			Assert.Equal(masterList[0].WordCount, 4);
         }
 
 
-		[Theory()]
+		[Fact()]
 		public void MergeListCanMergeNullList()
 		{
 			var bookService = new BookService();
@@ -87,8 +86,8 @@ namespace CTM_PG.Tests
 			bookService.MergeWordCountLists(ref masterList, list2);
 
 			Assert.True(masterList.Count == 2, "Word count is invalid");
-			Assert.Equal(masterList[1].Word, "THE");
-			Assert.Equal(masterList[1].WordCount, 4);
+			Assert.Equal(masterList[1].Word, "RAILWAY");
+			Assert.Equal(masterList[0].WordCount, 4);
 		}
 
 		

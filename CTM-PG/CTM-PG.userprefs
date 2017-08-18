@@ -1,15 +1,35 @@
-﻿<Properties StartupConfiguration="{4C79A6DA-851A-402C-ACE8-78C891A6F42E}|Default">
+﻿<Properties StartupConfiguration="{5B4A0CFC-6A00-4106-92D8-5435E767952C}|Unit Tests">
   <MonoDevelop.Ide.ItemProperties.CTM-PG.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CTM-PG.Services/BookService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CTM-PG.Services/BookReader.cs">
     <Files>
-      <File FileName="CTM-PG.Services/BookReader.cs" Line="7" Column="18" />
-      <File FileName="CTM-PG.Services/BookService.cs" Line="93" Column="1" />
+      <File FileName="CTM-PG.Tests/BookServiceTest.cs" Line="23" Column="59" />
+      <File FileName="CTM-PG.Services/BookService.cs" Line="28" Column="55" />
+      <File FileName="CTM-PG.Services/WordCountService.cs" Line="10" Column="6" />
+      <File FileName="CTM-PG.Services/BookReader.cs" Line="10" Column="17" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="CTM-PG" expanded="True">
+            <Node name="CTM-PG.Tests" expanded="True">
+              <Node name="CTM_PG" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="BookServiceTests" expanded="True">
+                    <Node name="ReturnsNonEmptyWordCollection" selected="True" />
+                  </Node>
+                  <Node name="WordCountServiceTests" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Services/BookService.cs" relfile="CTM-PG.Services/BookService.cs" line="45" column="19" />
+      <Breakpoint file="/Users/paul/OneDrive/Training/Technical tests/CompareTheMarket/CTM-PG/CTM-PG.Tests/BookServiceTest.cs" relfile="CTM-PG.Tests/BookServiceTest.cs" line="31" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

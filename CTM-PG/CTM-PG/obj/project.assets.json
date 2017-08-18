@@ -2,36 +2,6 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Castle.Core/4.1.1": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "System.Collections.Specialized": "4.3.0",
-          "System.ComponentModel": "4.3.0",
-          "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Diagnostics.TraceSource": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
-          "System.Xml.XmlDocument": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Castle.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Castle.Core.dll": {}
-        }
-      },
-      "CommonServiceLocator/1.3.0": {
-        "type": "package",
-        "compile": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
-        }
-      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -2703,21 +2673,6 @@
           }
         }
       },
-      "Moq/4.7.99": {
-        "type": "package",
-        "dependencies": {
-          "Castle.Core": "4.1.1",
-          "NETStandard.Library": "1.6.1",
-          "System.Linq.Queryable": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Moq.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Moq.dll": {}
-        }
-      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -3459,36 +3414,6 @@
           "lib/net45/_._": {}
         }
       },
-      "System.Diagnostics.TraceSource/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "runtime.native.System": "4.3.0"
-        },
-        "compile": {
-          "ref/netstandard1.3/System.Diagnostics.TraceSource.dll": {}
-        },
-        "runtime": {
-          "lib/net46/System.Diagnostics.TraceSource.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
       "System.Diagnostics.Tracing/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3735,17 +3660,17 @@
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
         }
       },
-      "System.Linq.Queryable/4.3.0": {
+      "System.Linq.Queryable/4.0.1": {
         "type": "package",
         "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0"
         },
         "compile": {
           "ref/netstandard1.0/System.Linq.Queryable.dll": {}
@@ -4921,35 +4846,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Unity/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "CommonServiceLocator": "1.3.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.dll": {}
-        }
-      },
-      "UnityAutoMoq/2.1.1": {
-        "type": "package",
-        "dependencies": {
-          "Moq": "3.0.0",
-          "Unity": "2.0.0"
-        },
-        "compile": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        },
-        "runtime": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        }
-      },
       "WindowsAzure.Storage/8.1.4": {
         "type": "package",
         "dependencies": {
@@ -4968,10 +4864,6 @@
       "CTM-PG.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Moq": "4.7.99",
-          "UnityAutoMoq": "2.1.1"
-        },
         "compile": {
           "bin/placeholder/CTM-PG.Services.dll": {}
         },
@@ -4981,36 +4873,6 @@
       }
     },
     ".NETCoreApp,Version=v2.0/win": {
-      "Castle.Core/4.1.1": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "System.Collections.Specialized": "4.3.0",
-          "System.ComponentModel": "4.3.0",
-          "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Diagnostics.TraceSource": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
-          "System.Xml.XmlDocument": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Castle.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Castle.Core.dll": {}
-        }
-      },
-      "CommonServiceLocator/1.3.0": {
-        "type": "package",
-        "compile": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
-        }
-      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -7639,21 +7501,6 @@
           "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.Registry.dll": {}
         }
       },
-      "Moq/4.7.99": {
-        "type": "package",
-        "dependencies": {
-          "Castle.Core": "4.1.1",
-          "NETStandard.Library": "1.6.1",
-          "System.Linq.Queryable": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Moq.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Moq.dll": {}
-        }
-      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -8558,26 +8405,6 @@
           "lib/net45/_._": {}
         }
       },
-      "System.Diagnostics.TraceSource/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "runtime.native.System": "4.3.0"
-        },
-        "compile": {
-          "ref/netstandard1.3/System.Diagnostics.TraceSource.dll": {}
-        },
-        "runtime": {
-          "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {}
-        }
-      },
       "System.Diagnostics.Tracing/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -8809,17 +8636,17 @@
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
         }
       },
-      "System.Linq.Queryable/4.3.0": {
+      "System.Linq.Queryable/4.0.1": {
         "type": "package",
         "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0"
         },
         "compile": {
           "ref/netstandard1.0/System.Linq.Queryable.dll": {}
@@ -9908,35 +9735,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Unity/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "CommonServiceLocator": "1.3.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.dll": {}
-        }
-      },
-      "UnityAutoMoq/2.1.1": {
-        "type": "package",
-        "dependencies": {
-          "Moq": "3.0.0",
-          "Unity": "2.0.0"
-        },
-        "compile": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        },
-        "runtime": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        }
-      },
       "WindowsAzure.Storage/8.1.4": {
         "type": "package",
         "dependencies": {
@@ -9955,10 +9753,6 @@
       "CTM-PG.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Moq": "4.7.99",
-          "UnityAutoMoq": "2.1.1"
-        },
         "compile": {
           "bin/placeholder/CTM-PG.Services.dll": {}
         },
@@ -9968,36 +9762,6 @@
       }
     },
     ".NETCoreApp,Version=v2.0/win-x64": {
-      "Castle.Core/4.1.1": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "System.Collections.Specialized": "4.3.0",
-          "System.ComponentModel": "4.3.0",
-          "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Diagnostics.TraceSource": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
-          "System.Xml.XmlDocument": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Castle.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Castle.Core.dll": {}
-        }
-      },
-      "CommonServiceLocator/1.3.0": {
-        "type": "package",
-        "compile": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
-        }
-      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -12635,21 +12399,6 @@
           "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.Registry.dll": {}
         }
       },
-      "Moq/4.7.99": {
-        "type": "package",
-        "dependencies": {
-          "Castle.Core": "4.1.1",
-          "NETStandard.Library": "1.6.1",
-          "System.Linq.Queryable": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Moq.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Moq.dll": {}
-        }
-      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -13799,26 +13548,6 @@
           "lib/net45/_._": {}
         }
       },
-      "System.Diagnostics.TraceSource/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "runtime.native.System": "4.3.0"
-        },
-        "compile": {
-          "ref/netstandard1.3/System.Diagnostics.TraceSource.dll": {}
-        },
-        "runtime": {
-          "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {}
-        }
-      },
       "System.Diagnostics.Tracing/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -14050,17 +13779,17 @@
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
         }
       },
-      "System.Linq.Queryable/4.3.0": {
+      "System.Linq.Queryable/4.0.1": {
         "type": "package",
         "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0"
         },
         "compile": {
           "ref/netstandard1.0/System.Linq.Queryable.dll": {}
@@ -15149,35 +14878,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Unity/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "CommonServiceLocator": "1.3.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.dll": {}
-        }
-      },
-      "UnityAutoMoq/2.1.1": {
-        "type": "package",
-        "dependencies": {
-          "Moq": "3.0.0",
-          "Unity": "2.0.0"
-        },
-        "compile": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        },
-        "runtime": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        }
-      },
       "WindowsAzure.Storage/8.1.4": {
         "type": "package",
         "dependencies": {
@@ -15196,10 +14896,6 @@
       "CTM-PG.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Moq": "4.7.99",
-          "UnityAutoMoq": "2.1.1"
-        },
         "compile": {
           "bin/placeholder/CTM-PG.Services.dll": {}
         },
@@ -15209,36 +14905,6 @@
       }
     },
     ".NETCoreApp,Version=v2.0/win-x86": {
-      "Castle.Core/4.1.1": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "System.Collections.Specialized": "4.3.0",
-          "System.ComponentModel": "4.3.0",
-          "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Diagnostics.TraceSource": "4.3.0",
-          "System.Dynamic.Runtime": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
-          "System.Xml.XmlDocument": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Castle.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Castle.Core.dll": {}
-        }
-      },
-      "CommonServiceLocator/1.3.0": {
-        "type": "package",
-        "compile": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll": {}
-        }
-      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -17876,21 +17542,6 @@
           "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.Registry.dll": {}
         }
       },
-      "Moq/4.7.99": {
-        "type": "package",
-        "dependencies": {
-          "Castle.Core": "4.1.1",
-          "NETStandard.Library": "1.6.1",
-          "System.Linq.Queryable": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Moq.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Moq.dll": {}
-        }
-      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -19040,26 +18691,6 @@
           "lib/net45/_._": {}
         }
       },
-      "System.Diagnostics.TraceSource/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.0",
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "runtime.native.System": "4.3.0"
-        },
-        "compile": {
-          "ref/netstandard1.3/System.Diagnostics.TraceSource.dll": {}
-        },
-        "runtime": {
-          "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll": {}
-        }
-      },
       "System.Diagnostics.Tracing/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -19291,17 +18922,17 @@
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
         }
       },
-      "System.Linq.Queryable/4.3.0": {
+      "System.Linq.Queryable/4.0.1": {
         "type": "package",
         "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Linq": "4.3.0",
-          "System.Linq.Expressions": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
+          "System.Collections": "4.0.11",
+          "System.Diagnostics.Debug": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Linq.Expressions": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0"
         },
         "compile": {
           "ref/netstandard1.0/System.Linq.Queryable.dll": {}
@@ -20390,35 +20021,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Unity/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "CommonServiceLocator": "1.3.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.dll": {}
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll": {},
-          "lib/net45/Microsoft.Practices.Unity.dll": {}
-        }
-      },
-      "UnityAutoMoq/2.1.1": {
-        "type": "package",
-        "dependencies": {
-          "Moq": "3.0.0",
-          "Unity": "2.0.0"
-        },
-        "compile": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        },
-        "runtime": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        }
-      },
       "WindowsAzure.Storage/8.1.4": {
         "type": "package",
         "dependencies": {
@@ -20437,10 +20039,6 @@
       "CTM-PG.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Moq": "4.7.99",
-          "UnityAutoMoq": "2.1.1"
-        },
         "compile": {
           "bin/placeholder/CTM-PG.Services.dll": {}
         },
@@ -20451,35 +20049,6 @@
     }
   },
   "libraries": {
-    "Castle.Core/4.1.1": {
-      "sha512": "O+88tWlRvtYLTn4dgAENyOgaLcExeox73ledI92d72z4U9IGSiiO8n/gnTnWgEMpBuXIdcyzrXHdGtn0c5Dz/A==",
-      "type": "package",
-      "path": "castle.core/4.1.1",
-      "files": [
-        "ASL - Apache Software Foundation License.txt",
-        "CHANGELOG.md",
-        "LICENSE",
-        "castle.core.4.1.1.nupkg.sha512",
-        "castle.core.nuspec",
-        "lib/net35/Castle.Core.dll",
-        "lib/net40/Castle.Core.dll",
-        "lib/net45/Castle.Core.dll",
-        "lib/netstandard1.3/Castle.Core.dll",
-        "readme.txt"
-      ]
-    },
-    "CommonServiceLocator/1.3.0": {
-      "sha512": "fbjO0SNwbOFPdwVfyqv+B7gIJ2CVBOFPKqn1mDDECK7KER8jFaOdcvroFYoAHa0ktPbxi5s+15qOLnA96f8GSA==",
-      "type": "package",
-      "path": "commonservicelocator/1.3.0",
-      "files": [
-        "commonservicelocator.1.3.0.nupkg.sha512",
-        "commonservicelocator.nuspec",
-        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.XML",
-        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll",
-        "lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.pdb"
-      ]
-    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -23122,21 +22691,6 @@
         "version.txt"
       ]
     },
-    "Moq/4.7.99": {
-      "sha512": "nABMpxtxUb14VoPd0p0maxqjjbpHV/1MpvFiq1Kwb9NhHFC7V/1E40XYSOB2GeQ8tfz0/RyMn8SlDcmw0MB71w==",
-      "type": "package",
-      "path": "moq/4.7.99",
-      "files": [
-        "lib/net45/Moq.dll",
-        "lib/net45/Moq.pdb",
-        "lib/net45/Moq.xml",
-        "lib/netstandard1.3/Moq.dll",
-        "lib/netstandard1.3/Moq.pdb",
-        "lib/netstandard1.3/Moq.xml",
-        "moq.4.7.99.nupkg.sha512",
-        "moq.nuspec"
-      ]
-    },
     "NETStandard.Library/2.0.0": {
       "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "type": "package",
@@ -25684,45 +25238,6 @@
         "system.diagnostics.tools.nuspec"
       ]
     },
-    "System.Diagnostics.TraceSource/4.3.0": {
-      "sha512": "VnYp1NxGx8Ww731y2LJ1vpfb/DKVNKEZ8Jsh5SgQTZREL/YpWRArgh9pI8CDLmgHspZmLL697CaLvH85qQpRiw==",
-      "type": "package",
-      "path": "system.diagnostics.tracesource/4.3.0",
-      "files": [
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Diagnostics.TraceSource.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.Diagnostics.TraceSource.dll",
-        "ref/netstandard1.3/System.Diagnostics.TraceSource.dll",
-        "ref/netstandard1.3/System.Diagnostics.TraceSource.xml",
-        "ref/netstandard1.3/de/System.Diagnostics.TraceSource.xml",
-        "ref/netstandard1.3/es/System.Diagnostics.TraceSource.xml",
-        "ref/netstandard1.3/fr/System.Diagnostics.TraceSource.xml",
-        "ref/netstandard1.3/it/System.Diagnostics.TraceSource.xml",
-        "ref/netstandard1.3/ja/System.Diagnostics.TraceSource.xml",
-        "ref/netstandard1.3/ko/System.Diagnostics.TraceSource.xml",
-        "ref/netstandard1.3/ru/System.Diagnostics.TraceSource.xml",
-        "ref/netstandard1.3/zh-hans/System.Diagnostics.TraceSource.xml",
-        "ref/netstandard1.3/zh-hant/System.Diagnostics.TraceSource.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/unix/lib/netstandard1.3/System.Diagnostics.TraceSource.dll",
-        "runtimes/win/lib/net46/System.Diagnostics.TraceSource.dll",
-        "runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll",
-        "system.diagnostics.tracesource.4.3.0.nupkg.sha512",
-        "system.diagnostics.tracesource.nuspec"
-      ]
-    },
     "System.Diagnostics.Tracing/4.3.0": {
       "sha512": "rswfv0f/Cqkh78rA5S8eN8Neocz234+emGCtTF3lxPY96F+mmmUen6tbn0glN6PMvlKQb9bPAY5e9u7fgPTkKw==",
       "type": "package",
@@ -26426,10 +25941,10 @@
         "system.linq.expressions.nuspec"
       ]
     },
-    "System.Linq.Queryable/4.3.0": {
-      "sha512": "In1Bmmvl/j52yPu3xgakQSI0YIckPUr870w4K5+Lak3JCCa8hl+my65lABOuKfYs4ugmZy25ScFerC4nz8+b6g==",
+    "System.Linq.Queryable/4.0.1": {
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
-      "path": "system.linq.queryable/4.3.0",
+      "path": "system.linq.queryable/4.0.1",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -26479,7 +25994,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.linq.queryable.4.3.0.nupkg.sha512",
+        "system.linq.queryable.4.0.1.nupkg.sha512",
         "system.linq.queryable.nuspec"
       ]
     },
@@ -29336,43 +28851,6 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Unity/4.0.1": {
-      "sha512": "RHFTCW13E186hCI0Z4R47tl2SyxQOp3TNaBlilxKktO+u+NUWyOK/nPJ25PWwgPh4j4/GM46PQszSsusui+ikw==",
-      "type": "package",
-      "path": "unity/4.0.1",
-      "files": [
-        "UnityConfiguration30.xsd",
-        "lib/net45/Microsoft.Practices.Unity.Configuration.XML",
-        "lib/net45/Microsoft.Practices.Unity.Configuration.dll",
-        "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.XML",
-        "lib/net45/Microsoft.Practices.Unity.RegistrationByConvention.dll",
-        "lib/net45/Microsoft.Practices.Unity.dll",
-        "lib/net45/Microsoft.Practices.Unity.xml",
-        "lib/portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10/Microsoft.Practices.Unity.dll",
-        "lib/portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10/Microsoft.Practices.Unity.xml",
-        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.XML",
-        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.dll",
-        "lib/win8/Microsoft.Practices.Unity.RegistrationByConvention.pri",
-        "lib/win8/Microsoft.Practices.Unity.dll",
-        "lib/win8/Microsoft.Practices.Unity.xml",
-        "lib/wp80/Microsoft.Practices.Unity.RegistrationByConvention.XML",
-        "lib/wp80/Microsoft.Practices.Unity.RegistrationByConvention.dll",
-        "lib/wp80/Microsoft.Practices.Unity.dll",
-        "lib/wp80/Microsoft.Practices.Unity.xml",
-        "unity.4.0.1.nupkg.sha512",
-        "unity.nuspec"
-      ]
-    },
-    "UnityAutoMoq/2.1.1": {
-      "sha512": "cGmd2AZWaMl9FtQ8xKE3MpeQAKO9svr1A1itwzhKiGcdr7qS6PpbSLJcua/x+QmtVj3fLgBj4k9L3scdZQJ+Gw==",
-      "type": "package",
-      "path": "unityautomoq/2.1.1",
-      "files": [
-        "lib/net35/UnityAutoMoq.dll",
-        "unityautomoq.2.1.1.nupkg.sha512",
-        "unityautomoq.nuspec"
-      ]
-    },
     "WindowsAzure.Storage/8.1.4": {
       "sha512": "W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "type": "package",
@@ -29406,8 +28884,7 @@
       "CTM-PG.Services >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "System.Net.Http >= 4.3.2",
-      "Unity >= 4.0.1"
+      "System.Net.Http >= 4.3.2"
     ]
   },
   "packageFolders": {
@@ -29445,10 +28922,6 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
-          },
-          "Unity": {
-            "target": "Package",
-            "version": "4.0.1"
           },
           "System.Net.Http": {
             "target": "Package",

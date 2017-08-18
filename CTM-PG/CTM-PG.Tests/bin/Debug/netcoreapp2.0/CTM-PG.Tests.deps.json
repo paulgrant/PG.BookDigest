@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "7176566aa325b6478cd1e6b64ffb2230bed2f058"
+    "signature": "2df22f934c95239f95c920c78651b53efe7e7be5"
   },
   "compilationOptions": {},
   "targets": {
@@ -1378,24 +1378,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Unity/2.0.0": {
-        "runtime": {
-          "lib/20/Microsoft.Practices.ServiceLocation.dll": {},
-          "lib/20/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/20/Microsoft.Practices.Unity.Interception.Configuration.dll": {},
-          "lib/20/Microsoft.Practices.Unity.Interception.dll": {},
-          "lib/20/Microsoft.Practices.Unity.dll": {}
-        }
-      },
-      "UnityAutoMoq/2.1.1": {
-        "dependencies": {
-          "Moq": "4.7.99",
-          "Unity": "2.0.0"
-        },
-        "runtime": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        }
-      },
       "xunit/2.2.0": {
         "dependencies": {
           "xunit.assert": "2.2.0",
@@ -1443,10 +1425,6 @@
         }
       },
       "CTM-PG.Services/1.0.0": {
-        "dependencies": {
-          "Moq": "4.7.99",
-          "UnityAutoMoq": "2.1.1"
-        },
         "runtime": {
           "CTM-PG.Services.dll": {}
         }
@@ -2137,20 +2115,6 @@
       "sha512": "sha512-Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
-    },
-    "Unity/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-gZ7jSKJH1mqhMtkL65h0qlZHbyQOEXHfgw6bjsh8NCIfDHeO80AyE30bmNXYWJRqTLMmWs4jQr+YibrNMkcZ9A==",
-      "path": "unity/2.0.0",
-      "hashPath": "unity.2.0.0.nupkg.sha512"
-    },
-    "UnityAutoMoq/2.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cGmd2AZWaMl9FtQ8xKE3MpeQAKO9svr1A1itwzhKiGcdr7qS6PpbSLJcua/x+QmtVj3fLgBj4k9L3scdZQJ+Gw==",
-      "path": "unityautomoq/2.1.1",
-      "hashPath": "unityautomoq.2.1.1.nupkg.sha512"
     },
     "xunit/2.2.0": {
       "type": "package",

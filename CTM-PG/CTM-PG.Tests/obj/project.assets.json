@@ -2188,36 +2188,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Unity/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/20/Microsoft.Practices.ServiceLocation.dll": {},
-          "lib/20/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/20/Microsoft.Practices.Unity.Interception.Configuration.dll": {},
-          "lib/20/Microsoft.Practices.Unity.Interception.dll": {},
-          "lib/20/Microsoft.Practices.Unity.dll": {}
-        },
-        "runtime": {
-          "lib/20/Microsoft.Practices.ServiceLocation.dll": {},
-          "lib/20/Microsoft.Practices.Unity.Configuration.dll": {},
-          "lib/20/Microsoft.Practices.Unity.Interception.Configuration.dll": {},
-          "lib/20/Microsoft.Practices.Unity.Interception.dll": {},
-          "lib/20/Microsoft.Practices.Unity.dll": {}
-        }
-      },
-      "UnityAutoMoq/2.1.1": {
-        "type": "package",
-        "dependencies": {
-          "Moq": "3.0.0",
-          "Unity": "2.0.0"
-        },
-        "compile": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        },
-        "runtime": {
-          "lib/net35/UnityAutoMoq.dll": {}
-        }
-      },
       "xunit/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2301,10 +2271,6 @@
       "CTM-PG.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Moq": "4.7.99",
-          "UnityAutoMoq": "2.1.1"
-        },
         "compile": {
           "bin/placeholder/CTM-PG.Services.dll": {}
         },
@@ -6873,37 +6839,6 @@
         "ref/xamarinwatchos10/_._",
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
-      ]
-    },
-    "Unity/2.0.0": {
-      "sha512": "gZ7jSKJH1mqhMtkL65h0qlZHbyQOEXHfgw6bjsh8NCIfDHeO80AyE30bmNXYWJRqTLMmWs4jQr+YibrNMkcZ9A==",
-      "type": "package",
-      "path": "unity/2.0.0",
-      "files": [
-        "lib/20/Microsoft.Practices.ServiceLocation.dll",
-        "lib/20/Microsoft.Practices.Unity.Configuration.dll",
-        "lib/20/Microsoft.Practices.Unity.Configuration.xml",
-        "lib/20/Microsoft.Practices.Unity.Interception.Configuration.dll",
-        "lib/20/Microsoft.Practices.Unity.Interception.Configuration.xml",
-        "lib/20/Microsoft.Practices.Unity.Interception.dll",
-        "lib/20/Microsoft.Practices.Unity.Interception.xml",
-        "lib/20/Microsoft.Practices.Unity.dll",
-        "lib/20/Microsoft.Practices.Unity.xml",
-        "lib/SL30/Microsoft.Practices.ServiceLocation.dll",
-        "lib/SL30/Microsoft.Practices.Unity.Silverlight.dll",
-        "lib/SL30/Microsoft.Practices.Unity.Silverlight.xml",
-        "unity.2.0.0.nupkg.sha512",
-        "unity.nuspec"
-      ]
-    },
-    "UnityAutoMoq/2.1.1": {
-      "sha512": "cGmd2AZWaMl9FtQ8xKE3MpeQAKO9svr1A1itwzhKiGcdr7qS6PpbSLJcua/x+QmtVj3fLgBj4k9L3scdZQJ+Gw==",
-      "type": "package",
-      "path": "unityautomoq/2.1.1",
-      "files": [
-        "lib/net35/UnityAutoMoq.dll",
-        "unityautomoq.2.1.1.nupkg.sha512",
-        "unityautomoq.nuspec"
       ]
     },
     "xunit/2.2.0": {

@@ -29,7 +29,7 @@ namespace CTM_PG.Services
             
             var bookStream = _bookReader.GetBookStream();
             var wordList = GetWordCountForBook(bookStream);
-            return wordList;
+            return wordList.OrderByDescending(x=>x.WordCount);
         }
 
         protected IEnumerable<BookWordCount> GetWordCountForBook(Stream bookStream)

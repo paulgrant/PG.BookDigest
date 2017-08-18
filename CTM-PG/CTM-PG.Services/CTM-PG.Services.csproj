@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="UnityAutoMoq" Version="2.1.1" />
-    <PackageReference Include="Moq" Version="4.7.99" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Interfaces\" />
   </ItemGroup>
 </Project>
